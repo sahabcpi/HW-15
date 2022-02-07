@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    width: 1170px;
+    text-align: center;
+
+    
+}
+#nav{
+    border-bottom: 1px solid #ddd;
+}
+nav{
+    background-color: #131e29;
+}
+.logo{
+    width: 30%;
+    text-align: center;
+}
+.content{
+    width: 70%;
+  
+}
+nav .row .menu-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .row .menu-bar li{
+display: inline-block;
+text-align: center;
+
+}
+nav .row .content a{
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color:#fff;
+    padding: 44px 18px;
+    text-transform: uppercase;
+    transition: all 0.2s linear; 
+    border-radius: 5%;   
+}
+nav .row .content a:hover{
+    background-color: #4bcaff;
+        
+}
+#banner-section{
+    background-image: url(../image/banner-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dividing-section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#banner-section .content .row{
+    align-items: center;
+
+}
+#banner-section .row .banner-image img{
+    width: 100%;
+}
+#banner-section .row .banner-image{
+    width: 55%;
+
+}
+#banner-section .row .banner-text{
+    width: 45%;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    
+}
+#banner-section .row .text-item{
+    position: absolute;
+    left:0;
+    top:160px;
+    
+}
+#banner-section .row .banner-text .banner-btn a{
+    display: inline-block;
+    padding: 25px 50px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #4bcaff;
+    border: none;
+}
+#banner-section .row .banner-text .banner-btn a:hover{
+    background-color: #4bcaff;
+    border-color: #4bcaff;
+    box-shadow: 0 2px 0px #4bcaff;
+}
+#banner-section .row .banner-text .banner-app-btn a i{
+    width: 52px;
+    height: 52px;
+    background-color: #131e29;
+    text-align: center;
+    line-height: 52px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+#summary .row a i{
+    width: 52px;
+    height: 52px;
+    background-color: #4bcaff;
+    text-align: center;
+    line-height: 52px;
+    font-size: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
